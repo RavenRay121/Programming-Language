@@ -1,0 +1,24 @@
+int main() {
+    int a;
+    int b;
+    int c;
+    int d;
+    int e;
+    int f;
+    scanf("%d",&a);
+    scanf("%d",&b);
+    scanf("%d",&c);
+    scanf("%d",&d);
+    scanf("%d",&e);
+    scanf("%d",&f);
+    int s1;
+    s1=(d-b)/(c-a);
+    int s2;
+    s2=(f-d)/(e-c);
+    if(s1==s2){
+        printf("they are on the same line");
+    }
+    else{
+        printf("they are not on the same line");
+    }
+}

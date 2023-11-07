@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int i;
+    char ch=3; //ASCII value for smiling face is 1
+    char ch2=4;
+    for(i=0;i<2000;i++)
+    {
+        printf("%c%c", ch, ch2);
+    }
+    getch();
+}
